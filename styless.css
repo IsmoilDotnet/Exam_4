@@ -149,6 +149,8 @@ button {
     line-height: 31px;
     color: gray;
     margin-left: 120px;
+    margin-top: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .build_container {
@@ -204,4 +206,13 @@ button {
 button:hover {
     background-color: black;
     color: white;
+}
+
+h3:hover {
+    color: darkblue;
+}
+
+.border:hover {
+    background-color: green;
+    color: aliceblue;
 }
