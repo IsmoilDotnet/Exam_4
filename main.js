@@ -25,3 +25,7 @@ function About(){
 function Enterprise(){
     window.location.href = "ForEnterprise.html";
 }
+
+function login(){
+    window.location.href = "login.html";
+}
